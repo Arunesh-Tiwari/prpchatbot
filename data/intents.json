@@ -1,0 +1,28 @@
+{
+    "intents": [
+        {
+            "tag": "add_transaction",
+            "patterns": [
+                "Add a transaction",
+                "Record a payment",
+                "Add expense"
+            ],
+            "responses": [
+                "What transaction do you want to add?",
+                "Please provide transaction details."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey"
+            ],
+            "responses": [
+                "Hi there! How can I assist you today?",
+                "Hello! What can I do for you?"
+            ]
+        }
+    ]
+}
